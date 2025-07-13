@@ -1,7 +1,7 @@
 ---
-title: "Exercise #X"
+title: "Exercise #6"
 subtitle: "Fortgeschrittene Statistische Software für NF"
-author: "Name (Martrikelnummer), Name (Martrikelnummer), ..."
+author: "Rrustem Sallauka, Benedikt Zimmermann"
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -89,3 +89,10 @@ c)  Your R package should be installable via
 ``` r
 remotes::install_github("<YOUR_GH_USERNAME>/<PACKAGE_REPOSITORY_NAME>")
 ```
+
+```{r}
+library(devtools)
+library(usethis)
+use_git()
+```
+
